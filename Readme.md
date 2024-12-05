@@ -1,7 +1,8 @@
-# Plan
+# Links
 
-**Group Link:** [VJudge Group - Kostanay Camp](https://vjudge.net/group/kostanaycamp)
-
+- **Group Link:** [VJudge Group - Kostanay Camp](https://vjudge.net/group/kostanaycamp)  
+- **Whiteboard Link:** [Lectures](https://excalidraw.com/#json=qPOOJmapM7DwLDYhy6Mx3,NUbWbQHGsAjEUc25yZxmnQ)
+  
 ---
 
 ## Day 1
