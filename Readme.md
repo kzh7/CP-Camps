@@ -32,3 +32,17 @@
 - **13:30-16:30**: Contest  
 - **16:30-17:30**: Editorial  
 - **17:30-19:30**: Upsolving  
+
+
+---
+
+## Day 3
+**Topics:**
+- Dynamic Programming (Basic)
+
+**Schedule:**
+- **10:30-12:30**: Theory  
+- **12:30-13:30**: Lunch  
+- **13:30-16:30**: Contest  
+- **16:30-17:30**: Editorial  
+- **17:30-19:30**: Upsolving  
