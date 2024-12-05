@@ -1,0 +1,2 @@
+Problem 1:
+Count number of ways to get to n-th cell from 0-th cell if you can jump +1 or +2 cells forward. 
