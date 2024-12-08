@@ -3,6 +3,7 @@
 using namespace std;
 
 const int N = (int)1e3 + 7;
+const int inf = (int)1e9 + 7;
 
 /*
   n -> # of nodes
@@ -92,8 +93,8 @@ void example2() {
     g[v].push_back(u);
     g[u].push_back(v);
 
-    mat[v][u] = 1;
-    mat[u][v] = 1;
+    // mat[v][u] = 1;
+    // mat[u][v] = 1;
   }
 
   int s, f;
@@ -120,7 +121,54 @@ void example2() {
   cout << dist[f] << endl;
 }
 
+
+void example3() {
+  cin >> n >> m;
+  vector<pair<int,int>> gr[n + 1];
+  for (int i = 1; i <= m; i++) {
+    int from, to, len;
+    // edge (v, u) with a cost len
+    cin >> from >> to >> len;
+    gr[from].push_back({to, len});
+    gr[to].push_back({from, len});
+  }
+
+  int s, f;
+  // s - start node
+  // f - finish node
+  cin >> s >> f;
+
+  vector<int> dist(n + 1, inf);
+  // {dist, v}
+  set<pair<int, int>> st;
+  
+  st.insert({0, s});
+  dist[s] = 0;
+
+  while (st.size()) { // st = {{0, 5}, {1, 3}, {10, 4}}
+    int from = st.begin()->second;
+    // pair<int, int> pr = *st.begin();
+    st.erase(st.begin());
+
+    for (auto it : gr[from]) { // gr[3]
+      // it.first -> to // to = 5
+      // it.second -> length // len = 1
+      if (dist[to] > dist[from] + len) {
+        // {dist[to], to}
+        st.erase({dist[to], to});
+        dist[to] = dist[from] + len;
+        st.insert({dist[to], to});
+      }
+    }
+  }
+
+  cout << dist[f] << endl;
+  // O((n + m) * log(n))
+}
+
+
+
 int main() {
-  example2();
+  example3();
   return 0;
 }
