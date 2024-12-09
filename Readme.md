@@ -1,7 +1,7 @@
 # Links
 
 - **Group Link:** [VJudge Group - Kostanay Camp](https://vjudge.net/group/kostanaycamp)  
-- **Whiteboard Link:** [Lectures](https://excalidraw.com/#json=qPOOJmapM7DwLDYhy6Mx3,NUbWbQHGsAjEUc25yZxmnQ)
+- **Whiteboard Link:** [Lectures](https://excalidraw.com/#json=0AWaBmLndEwMP5IggaXI_,VsxCP_GfIvhLAfxD_7blaQ)
 - **CSES:** [Handbook](https://cses.fi/book/book.pdf)
   
 ---
