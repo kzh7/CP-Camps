@@ -2,6 +2,7 @@
 
 - **Group Link:** [VJudge Group - Kostanay Camp](https://vjudge.net/group/kostanaycamp)  
 - **Whiteboard Link:** [Lectures](https://excalidraw.com/#json=qPOOJmapM7DwLDYhy6Mx3,NUbWbQHGsAjEUc25yZxmnQ)
+- **CSES:** [Handbook](https://cses.fi/book/book.pdf)
   
 ---
 
@@ -57,4 +58,24 @@
 - **12:30-13:30**: Lunch  
 - **13:30-16:30**: Contest  
 - **16:30-17:30**: Editorial  
-- **17:30-19:30**: Upsolving  
+- **17:30-19:30**: Upsolving
+
+## Day 5
+**Topics:**
+- Dynamic Programming (Advanced)
+
+**Schedule:**
+- **10:30-12:30**: Upsolving
+- **12:30-13:30**: Lunch  
+- **13:30-19:30**: Upsolving  
+
+## Day 6
+**Topics:**
+- Graph Theory (DFS, BFS, Dijkstra)
+
+**Schedule:**
+- **10:30-12:30**: Theory  
+- **12:30-13:30**: Lunch  
+- **13:30-16:30**: Contest  
+- **16:30-17:30**: Editorial  
+- **17:30-19:30**: Upsolving
